@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Recipes</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Delicious Recipes!</h1>
+    <p>Your one-stop hub for mouth-watering meals.</p>
+  </header>
+  <main>
+    <section id="recipes">
+      <article class="recipe">
+        <h2>Spaghetti Carbonara</h2>
+        <p>A classic Italian pasta dish that's simple yet flavorful!</p>
+        <button onclick="showIngredients('carbonara')">View Ingredients</button>
+        <ul id="carbonara" class="hidden">
+          <li>200g Spaghetti</li>
+          <li>100g Pancetta</li>
+          <li>2 Large Eggs</li>
+          <li>50g Parmesan Cheese</li>
+          <li>Salt & Black Pepper</li>
+        </ul>
+      </article>
+      <article class="recipe">
+        <h2>Avocado Toast</h2>
+        <p>Healthy and delicious breakfast for busy mornings.</p>
+        <button onclick="showIngredients('avocado-toast')">View Ingredients</button>
+        <ul id="avocado-toast" class="hidden">
+          <li>1 Avocado</li>
+          <li>2 Slices of Bread</li>
+          <li>Salt & Pepper</li>
+          <li>Lemon Juice</li>
+        </ul>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Delicious Recipes. All rights reserved.</p>
+  </footer>
+  <script src="./js/script.js"></script>
+</body>
+</html>
